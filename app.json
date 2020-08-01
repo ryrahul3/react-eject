@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "BharatTikTalk",
+    "slug": "BharatTikTalk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.demo.BharatTikTalk"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "description": "Demo application for new Indian tik talk for Indian by Indian.",
+    "android": {
+      "package": "com.demo.BharatTikTalk",
+      "versionCode": 1
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
